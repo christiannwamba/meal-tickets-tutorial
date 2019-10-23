@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: "Cerebri Sans-book";
+  src: url("/Cerebri-Sans/CerebriSans-Book.woff")format("woff");
+}
+@font-face {
+  font-family: "Cerebri Sans-Medium";
+  src: url("/Cerebri-Sans/CerebriSans-Medium.woff")format("woff");
+}
+@font-face {
+  font-family: "Cerebri Sans-regular";
+  src: url("/Cerebri-Sans/CerebriSans-Regular.woff")format("woff");
+}

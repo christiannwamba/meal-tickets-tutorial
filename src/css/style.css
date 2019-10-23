@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fbfbfb;
+}
+
+img {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Cerebri Sans-book', Arial, sans-serif;
+}
+a,
+button {
+  transition: opacity 0.3s ease-in;
+}
+a:hover,
+button:hover {
+  opacity: 0.6;
+}
+
+ul {
+  list-style: none;
+}
+h1,
+h2 {
+  font-family: 'Cerebri Sans-Medium', Arial, sans-serif;
+}
+h3 {
+  font-family: 'Cerebri Sans-book', Arial, sans-serif;
+}
+p {
+  font-family: 'Cerebri Sans-book', Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: #fbfbfb;
+  height: 100vh;
+  overflow: auto;
+  border-top: 1px solid #eaedf3;
+}
+
+.page-info {
+  max-width: 149px;
+  margin: 0 auto;
+  padding: 2em 0;
+  text-align: center;
+}
+.page-info img {
+  display: inline;
+}
+.page-info h1 {
+  font-size: 21px;
+  margin-top: 10px;
+  font-family: 'Cerebri Sans-Medium', Arial, sans-serif;
+  text-transform: capitalize;
+}
+.page-info p {
+  font-size: 18px;
+  margin-top: 5px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #959595;
+  font-family: 'Cerebri Sans-Medium', Arial, sans-serif;
+}
+.options {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.options li {
+  width: 48%;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #eaedf3;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.options li a {
+  display: block;
+  padding: 30px 20px;
+}
+.options li h2 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.search-wrapper-wp {
+  background: #ffffff;
+  border-bottom: 1px solid #eaedf3;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.02);
+  padding: 15px;
+}
+
+.search-wrapper {
+  background: rgba(142, 142, 147, 0.12);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 10px;
+}
+
+.search-wrapper a svg {
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
+}
+.search-wrapper input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  margin-left: 5px;
+  width: calc(100% - 25px);
+  color: #8e8e93;
+}
+.main-wrapper {
+  padding: 25px 15px;
+}
+.page-title {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 15px;
+  font-family: 'Cerebri Sans-book', Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button {
+  padding: 11px 40px;
+  border-radius: 5px;
+  background: #f9ba47;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login-image{
+  max-width: 100%;
+  height: 250px;
+}
+
+.card-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #eaedf3;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+}
+.card-item:not(:last-child):not(:only-child) {
+  margin-bottom: 20px;
+}
+.card-item svg {
+  width: 55px;
+  height: 47px;
+  margin-right: 10px;
+}
+.card-item div {
+  width: calc(100% - 65px);
+}
+.card-item h3 {
+  font-size: 16px;
+  font-family: 'Cerebri Sans-Medium', Arial, sans-serif;
+}
+.card-item p {
+  font-size: 14px;
+  color: #9d9d9d;
+  margin-top: 2px;
+}
+.invalidate-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: linear-gradient(0deg, #f6f7f9 0%, #ffffff 100%);
+  border: 1px solid #d8dce6;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(22, 29, 37, 0.05),
+    inset 0px 2px 0px rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  padding: 5px;
+  color: #000;
+}
+.back-btn{
+  background: transparent;
+  position: fixed;
+  top: 27px;
+}
+.it-btn {
+  background: #181a32;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 0;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+}

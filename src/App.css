@@ -1,0 +1,19 @@
+.logout-container {
+  margin: 15px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logout-button {
+  cursor: pointer;
+  background: transparent;
+}
+
+.logout-button p {
+  font-size: 15px;
+}
+
+.logout-button span {
+  margin-left: 5px;
+}
